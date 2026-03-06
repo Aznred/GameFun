@@ -1,0 +1,24 @@
+{
+  "name": "megaopoly",
+  "version": "1.0.0",
+  "description": "Next-gen 3D Multiplayer Board Game - Monopoly meets Mario Party meets Cities Skylines",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"node server/index.js\" \"vite\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "three": "^0.162.0",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4",
+    "express": "^4.18.3",
+    "gsap": "^3.12.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "vite": "^5.1.6",
+    "concurrently": "^8.2.2"
+  }
+}
